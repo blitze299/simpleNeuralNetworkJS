@@ -52,12 +52,67 @@ const tweetData = [
   },
   {
     input:
+      "The development of functional MRI to measure brain activity is described in ‘The New Mind Readers’ written by experimental psychologist and neuroimaging pioneer, Russell Poldrack.  Chris Baker discusses Poldrack’s attempts to decode these scans.",
+    output: { nature: 1 }
+  },
+  {
+    input:
+      "A 1,000-year-old virus recovered from an ancient Native American settlement is the oldest plant virus ever found  #ResearchHighlight",
+    output: { nature: 1 }
+  },
+  {
+    input:
+      "Certain fields draw frequent attacks on social media and other digital platforms. Three scientists explain how they navigate the minefields.",
+    output: { nature: 1 }
+  },
+  {
+    input:
+      "The legalization of weed in Canada has opened up opportunities for cannabis research.",
+    output: { nature: 1 }
+  },
+  {
+    input:
+      "Editorial: The way in which a dandelion seed is dispersed is a great example of how evolution can produce ingenious solutions to specific problems.",
+    output: { nature: 1 }
+  },
+  {
+    input:
+      "The results of a study published in Nature demonstrate a strategy to restore breathing after central nervous system trauma by targeting a neuronal subpopulation. https://go.nature.com/2pPmR4D",
+    output: { nature: 1 }
+  },
+  {
+    input:
+      "Scientists have imaged mouse embryos in real-time and unprecedented detail, illuminating how the developing animals establish their basic body plans and begin to form organs #ResearchHighlight",
+    output: { nature: 1 }
+  },
+  {
+    input:
+      "The next major outbreak won’t be due to a lack of preventative technologies, but rather by misinformation given on social media, says @ProfHeidiLarson.",
+    output: { nature: 1 }
+  },
+  {
+    input:
+      "Editorial: A Consensus Statement published in @NatureRevMicro  represents a landmark effort to find better ways to prescribe antibiotics.",
+    output: { nature: 1 }
+  },
+  {
+    input:
+      "Flipping light-sensitive proteins upside down in cell membranes has expanded the utility of a popular technique for studying the brain #ResearchHighlight",
+    output: { nature: 1 }
+  },
+  {
+    input:
+      "News & Views: A new analysis of ancient rocks in Greenland that were previously interpreted to be stromatolites is argued to have arose by non-biological process, according to a study in Nature.",
+    output: { nature: 1 }
+  },
+  {
+    input:
       "Watching the Dodgers/Red Sox final innings. It is amazing how a manager takes out a pitcher who is loose & dominating through almost 7 innings, Rich Hill of Dodgers, and brings in nervous reliever(s) who get shellacked. 4 run lead gone. Managers do it all the time, big mistake!",
     output: { trump: 1 }
   },
   {
     input:
-      "Prozentuale Stimmverteilung, Gewinne und Verluste, Wahlkreisergebnisse und mehr. Ab 18.00 Uhr gibt es alle wichtigen Zahlen zur #ltwhe18 in unseren interaktiven Live-Grafiken:  https://www.zvw.de/inhalt.grafiken-die-landtagswahl-2018-in-hessen.c748b6c8-fbb6-4902-8747-d26e46b9d3a5.html … @dpa-electionslive via @zvw_redaktion #ltwhessen",
+      "Funny how lowly rated CNN, and others, can criticize me at will, even blaming me for the current spate of Bombs and ridiculously comparing this to September 11th and the Oklahoma City bombing, yet when I criticize them they go wild and scream, it’s just not Presidential!",
     output: { trump: 1 }
   },
   {
@@ -98,6 +153,61 @@ const tweetData = [
   {
     input:
       "I will be speaking at the Young Black Leadership Summit in 15 minutes where I will address the investigation into the bomb packages.",
+    output: { trump: 1 }
+  },
+  {
+    input:
+      ".@BrucePoliquin from Maine is a great Congressman. He is in a tough fight against a very liberal Nancy Pelosi Democrat. Bruce has helped bring JOBS back to his State and totally protects your Great Second Amendment. We need to keep Bruce in Washington. He has my Full Endorsement!",
+    output: { trump: 1 }
+  },
+  {
+    input:
+      ".@MikeDunleavyGov will make a fantastic Governor of Alaska. Mike is for Energy and Jobs, is tough on Crime, loves our Vets and our Great Second Amendment. Mike has my Complete and Total Endorsement!",
+    output: { trump: 1 }
+  },
+  {
+    input:
+      ".@LloydSmuckerPA is doing a great job for the people of Pennsylvania. He is strong on the Border, Crime, the Military, our Vets and the 2nd Amendment. Lloyd has my Total Endorsement!",
+    output: { trump: 1 }
+  },
+  {
+    input:
+      ".@Troy_Balderson of Ohio is doing a great job as your Congressman, already very respected in Washington. Get out and VOTE for Troy - we need him – great guy – has my Total Endorsement!",
+    output: { trump: 1 }
+  },
+  {
+    input:
+      ".@JohnChrin of Pennsylvania is fantastic. He is strong on the Border, Crime, the Military, our Vets and the 2nd Amendment. He is a powerful vote for #MAGA and loves the Great State of Pennsylvania. Please get out and vote for John, he has my Total and very Strong Endorsement!",
+    output: { trump: 1 }
+  },
+  {
+    input:
+      "...I agree with their stance 100%, and the United States is likewise taking a very hard line on illegal immigration. The Prime Minister is working very hard on the economy of Italy - he will be successful!",
+    output: { trump: 1 }
+  },
+  {
+    input:
+      "Just spoke with Prime Minister @GiuseppeConteIT of Italy concerning many subjects, including the fact that Italy is now taking a very hard line on illegal immigration...",
+    output: { trump: 1 }
+  },
+  {
+    input:
+      "Spoke with French President @EmmanuelMacron this morning. Discussed many topics including the very exciting upcoming visit to Paris where @FLOTUS Melania and I will attend the Armistice Day Centennial Commemoration!",
+    output: { trump: 1 }
+  },
+  {
+    input:
+      "To those in the Caravan, turnaround, we are not letting people into the United States illegally. Go back to your Country and if you want, apply for citizenship like millions of others are doing!",
+    output: { trump: 1 }
+  },
+  {
+    input:
+      "“Remarks by President Trump on a Year of Historic Progress and Action to Combat the Opioid Crisis” http://45.wh.gov/b32H63",
+    output: { trump: 1 }
+  },
+  {
+    input:
+      "The New York Times has a new Fake Story that now the Russians and Chinese (glad they finally added China) are listening to all of my calls on cellphones. Except that I rarely use a cellphone, & when I do it’s government authorized. I like Hard Lines. Just more made up Fake News!",
     output: { trump: 1 }
   }
 ];

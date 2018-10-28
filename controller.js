@@ -58,6 +58,6 @@ train(tweetData);
 //Darstellen und ausführen des zu testenden Tweets
 console.log(
   execute(
-    "Comment: “Future AI and conflict models need to do more than make predictions” argue Weisi Guo, Kristian Gleditsch and Alan Wilson."
+    "Comment: “We are a great Sovereign Nation. We have Strong Borders and will never accept people coming into our Country illegally!"
   )
 );
